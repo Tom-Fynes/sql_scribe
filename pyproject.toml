@@ -6,7 +6,9 @@ authors = ["Tom Fynes"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "3.8"
+python = "3.9.1"
+XlsxWriter = "1.4.5"
+colorama = "^0.4.4"
 
 [tool.poetry.dev-dependencies]
 
