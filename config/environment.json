@@ -1,0 +1,12 @@
+{
+    "Environments": [
+        {
+            "ServerName": "sqla.sql.server.com",
+            "windows_auth": "True"
+        },
+        {
+            "ServerName": "sqlb.sql.server.com",
+            "windows_auth": "True"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+header:
+    bold: True 
+    fore_ground: "#ff8c27"
+
+labal:
+    bold: True 
+    fore_ground: "#5cdcc1"
+
+worksheets:
+  - "Overview"
+  - "DatabasesAndSizes"
+  - "AdvanceSettings"
+  - "TraceFlagsAndTempDB"
+  - "Replication"
+  - "BackupHistory"
+  - "TopRunningSPs"
+  - "Fileinfo"
+  - "SQLAgents"
+  - "MemorySnap"
