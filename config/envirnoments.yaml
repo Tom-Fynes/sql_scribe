@@ -1,0 +1,7 @@
+environments:
+  
+    sqla.sql.server.com:
+      windows_auth: True
+  
+    sqlb.sql.server.com:
+      windows_auth: True
