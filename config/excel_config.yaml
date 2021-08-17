@@ -2,7 +2,7 @@ header:
     bold: True 
     fore_ground: "#ff8c27"
 
-labal:
+label:
     bold: True 
     fore_ground: "#5cdcc1"
 
@@ -10,7 +10,7 @@ worksheets:
     - "Overview"
     - "DatabasesAndSizes"
     - "AdvanceSettings"
-    - "TraceFlagsAndTempDB"
+    - "TraceFlagsAndTempDB" 
     - "Replication"
     - "BackupHistory"
     - "TopRunningSPs"
