@@ -5,3 +5,9 @@ environments:
   
     sqlb.sql.server.com:
       windows_auth: True
+
+    sqlC.sql.server.com:
+      windows_auth: FALSE
+
+    sqld.sql.server.com:
+      windows_auth: "some value"

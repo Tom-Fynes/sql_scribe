@@ -34,5 +34,16 @@ if __name__ == '__main__':
 
     print(f"{HIGHLIGHT_COLOR}{str(len(windows_auth_servers))}{DEFAULT_COLOR} windows auth servers found")
     print(f"{HIGHLIGHT_COLOR}{str(len(sql_auth_servers))}{DEFAULT_COLOR} sql server auth servers found")
-    print(f"{HIGHLIGHT_COLOR}{str(len(skiped_servers))}{DEFAULT_COLOR} server skipped due to invalid config")
+    print(f"{WARNING_COLOR}{str(len(skiped_servers))}{DEFAULT_COLOR} server skipped due to invalid config")
     
+    print(f"{HIGHLIGHT_COLOR}Starting windows auth servers")
+
+    for server in windows_auth_servers:
+        print(f"{server}")
+
+    print(f"{HIGHLIGHT_COLOR}Starting SQL auth servers")
+
+    for server in sql_auth_servers:
+        print(f"{server}")
+
+    openresults(f"{ROOT_PATH}\{OUTPUT_PATH}")

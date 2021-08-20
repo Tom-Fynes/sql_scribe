@@ -13,9 +13,9 @@ def get_envs_from_yaml(yaml_file):
         try:
             file = yaml.safe_load(stream)
             for env, auth in file["environments"].items():
-                if auth.get(0, True) :
+                if auth["windows_auth"] == True:
                     windows_auth.append(env)
-                elif auth.get(0, False):
+                elif auth["windows_auth"] == False:
                     sql_auth.append(env)
                 else:
                     skiped_envs.append(env)
