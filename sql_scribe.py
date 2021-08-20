@@ -18,7 +18,6 @@ from logic.config.app_config import (
     ERROR_COLOR,
     HIGHLIGHT_COLOR,
     DEFAULT_COLOR,
-    STYLE_BRIGHT,
     INTRO_COLOR,
 )
 
@@ -40,10 +39,12 @@ if __name__ == '__main__':
 
     for server in windows_auth_servers:
         print(f"{server}")
+        wait(WAIT_TIME)
 
     print(f"{HIGHLIGHT_COLOR}Starting SQL auth servers")
 
     for server in sql_auth_servers:
         print(f"{server}")
+        wait(WAIT_TIME)
 
     openresults(f"{ROOT_PATH}\{OUTPUT_PATH}")
